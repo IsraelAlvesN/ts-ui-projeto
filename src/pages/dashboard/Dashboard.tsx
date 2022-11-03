@@ -8,6 +8,9 @@ export const Dashboard = () => {
             barraDeFerramentas={(
                 <FerramentasDeDetalhe
                     mostrarBotaoSalvarEFechar
+                    mostrarBotaoNovo
+                    mostrarBotaoSalvarEFecharCarregando
+                    mostrarBotaoVoltar={false}
                 />
                 )}
         >
@@ -15,3 +18,5 @@ export const Dashboard = () => {
         </LayoutBaseDePagina>
     )
 }
+
+//20
